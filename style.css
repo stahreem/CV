@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Links */
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #333;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.experience,
+.education,
+.skills,
+.projects {
+  padding: 10px 0;
+}
+
+.experience-item,
+.education-item,
+.project-item,
+.skill-item {
+  margin-bottom: 15px;
+}
+
+/* Experience */
+.experience-item h3,
+.education-item h3,
+.project-item h3 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.experience-item span,
+.education-item span,
+.project-item span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #f0f0f0;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 20px;
+}
